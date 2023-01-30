@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王天天</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+			text-decoration: none;
+		    list-style-type: none;
+			
+        }
+        body{
+            margin: 0;
+        }
+        .top{
+            
+            background-color: rgb(208, 174, 174);
+            width: 1600px;
+            height: 80px;
+		
+
+        }
+        .top img{
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            margin-left: 100px;
+			float: left;
+        }
+		.top span{
+			float: left;
+			margin-top: 35px;
+			margin-left: 10px;
+			font-size: 18px;
+		
+		}
+        .daohang{
+           width: 100%;
+           height: 60px;
+           background-color:#f1f1f1;
+		   line-height: 70px;
+		   padding-left: 60px;
+		   	  
+        }
+        .daohang a{
+			margin-left: 40px;
+		}
+        .box{
+            width: 1100px;
+            height: 100%;
+            background-color: aqua;
+            margin: auto;
+			
+			
+			
+        }
+        .box .nav{
+            height: 500px;
+            width: 200px;
+            background-color: rgb(234, 197, 197);
+            float: left;
+            position: sticky;
+            float: left;
+            
+			
+			
+        }
+		.box .nav  ul li {
+			margin-top: 25px;
+			margin-left: 10px;
+		}
+        .box .content{
+            height: 100%;
+            width: 800px;
+            background-color: rgb(229, 238, 235);
+            float:left;
+			margin-left: 20px;
+			
+        }
+	
+        .xia{
+            width: 100%;
+            height: 70px;
+            background-color: rgb(208, 174, 174);
+			margin-top: 10px;
+			float: left;
+        }
+        .xia .call{
+            
+            margin-left: 750px;
+        }
+		.back{
+		    width: 50px;
+		    height: 50px;
+		    background-color: aqua;
+		    font-size: 20px;
+		    text-align: center;
+		    line-height: 25px;
+		    color: #fff;
+		    position: fixed;
+		    bottom: 50px;
+		    right: 50px;
+		    display: none;
+		}
+        .content .bibao h4{
+            margin-left: 20px;
+        }
+        .content .bibao ul{
+            margin-left: 60px;
+        }
+        .jiantou ul{
+            margin-left: 60px;
+        }
+        .jiantou h4{
+            margin-left: 20px;
+        }
+        .shijian ul{
+            margin-left: 60px;
+        }
+        .shijian h4{
+            margin-left: 20px;
+        }
+        .yuanxing ul{
+            margin-left: 60px;
+        }
+        .yuanxing h4{
+            margin-left: 20px;
+        }
+        .kongzhi ul{
+            margin-left: 60px;
+        }
+        .kongzhi h4{
+            margin-left: 20px;
+        }
+        .shuzu ul{
+            margin-left: 60px;
+        }
+        .shuzu h4{
+            margin-left: 20px;
+        }
+        .zuoyong ul{
+            margin-left: 60px;
+        }
+        .zuoyong h4{
+            margin-left: 20px;
+        }
+        .hanshu ul{
+            margin-left: 60px;
+        }
+        .hanshu h4{
+            margin-left: 20px;
+        }
+        .db ul{
+            margin-left: 60px;
+        }
+        .db h4{
+            margin-left: 20px;
+        }
+        .jicheng ul{
+            margin-left: 60px;
+        }
+        .jicheng h4{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body background="./img/a2.jpg" 
+ style="background-repeat:no-repeat;
+ background-attachment:fixed;
+ background-size:100% 100%; ">
+    <!-- 顶部 -->
+    <div class="top">
+      <img src="./img/touxiang.png" alt="">
+      <span>王天天的个人网站</span>
+    </div>
+    <!-- 导航栏 -->
+    <div class="daohang">
+      <a href="http://www.baidu.com/">不会点这里</a>
+	  <a href="https://www.bilibili.com/">哔哩哔哩</a>
+	  <a href="https://www.runoob.com/">菜鸟教程</a>
+	  <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide">MDN</a>
+	   <a href="https://www.csdn.net/">CSDN</a>
+	  <a href="https://blog.csdn.net/WGY080726?spm=1000.2115.3001.5343">联系作者</a>
+    </div>
+    <!-- 主体 -->
+    <div class="box">
+        <!-- 侧边 -->
+       <div class="nav">
+           <ul>
+           	<li><a href="#bibao" >1.闭包</a>
+			</li>
+			<li><a href="#jiantou">2.箭头函数</a>，
+			</li>
+			<li><a href="#shijian">3.事件</a>
+			</li>
+			<li><a href="#yuanxing">4.原型链</a>
+			</li>
+			<li><a href="#kongzhi">5.流程控制</a>
+			</li>
+			<li><a href="#shuzu">6.数组</a>
+			</li>
+			<li><a href="#zuoyong">7.作用域</a>
+			</li>
+			<li><a href="#hanshu">8.函数</a>
+			</li>
+			<li><a href="#db">9.DOM BOM</a>
+			</li>
+			<li><a href="#jicheng">10.继承</a>
+			</li>		     
+           </ul>
+       </div>
+       <!-- 内容 -->
+       <div class="content">
+           <div class="bibao" >
+			   <a name="bibao"></a>
+			   <h1>闭包</h1>
+               <h4>一.什么是闭包
+			   <ul>
+	              <li>1.闭包就是能够读取其他函数内部变量的函数</li>
+				  <li>2.因此可以把闭包简单理解成 " 定义在一个函数内部的函数" 。所以，在本质上，闭包就是将函数内部和函数外部连接起来的一座桥梁。</li>
+                  <li></li>
+			   </ul>
+            </h4>
+            <h4>二.闭包的三大特性
+                <ul>
+                    <li>1.内嵌函数：函数嵌套函数，内嵌函数对函数中的局部变量进行访问</li>
+                    <li>2.外部使用：函数向外返回此内嵌函数，外部可通过此内嵌函数访问声明在函数中的局部变量，而此变量在外部是通过其他路径无法访问的</li>
+                    <li>3.参数和变量不会立即被垃圾回收机制回收</li>
+                </ul>
+            </h4>
+            <h4>三.闭包优点
+                <ul>
+                    <li>1.可读取函数内部的变量</li>
+                    <li>2.局部变量可以保存在内存中，实现数据共享</li>
+                    <li>3.执行过程中所有变量都匿名在函数内部</li>
+                </ul>
+            </h4>
+            <h4>四.闭包缺点
+                <ul>
+                    <li>1.使函数内部变量存在于内存中，内存消耗大</li>
+                    <li>2.滥用闭包可能导致内存泄露</li>
+                    <li>3.闭包可以在父函数外部改变父函数内部的值，慎操作</li>
+                </ul>
+            </h4>
+            <h4>五.为什么使用
+                <ul>
+                    <li>使用闭包可以延长局部变量的生命周期，不让局部变量使用后立即释放，被删除。</li>
+                </ul>
+            </h4>	   
+		   </div>
+		   
+		   <div class="jiantou">
+			   <a name="jiantou"></a>
+	             <h1>箭头函数</h1>
+                 <h4>一.基础语法
+                    <ul>
+                        <li> 普通函数 <br>
+                            let sum = function(a, b) { <br>
+                                return a + b;   <br>
+                            }<br>
+                            
+                             箭头函数 <br>
+                            let sum1 = (a, b) => { <br>
+                                return a + b; <br> 
+                            }<br>
+                            </li>
+                    </ul>
+                 </h4>
+                 <h4>二.基础用法
+                    <ul>
+                        <li>1.省略包含参数的小括号:如果只有一个参数，那也可以不用括号。只有没有参数，或者多个参数的情况下，才需要使用括号</li>
+                        <li>2.省略包含函数体的大括号: 箭头函数也可以不用大括号，但这样会改变函数的行为。使用大括号就说明包含“函数体”，可以在一个函数中包含多条语句，跟常规的函数一样。</li>
+                        <li>3.箭头函数不能使用arguments</li>
+                    </ul>
+                 </h4>				 
+		   </div>
+
+           <div class="shijian">
+            <a name ='shijian'></a>
+            <h1>事件</h1>
+            <h4>一.事件三要素
+                <ul>
+                    <li>1.事件源：和谁   做好约定</li>
+                    <li>2.事件类型： 约定一个什么行为</li>
+                    <li>3.事件处理函数：当用户触发该行为时  执行什么代码</li>
+                </ul>
+            </h4>
+             <h4>二.语法
+                <ul>
+                    <li>1.事件源.on事件类型=事件处理函数</li>
+                    <li>2. 获取div <br> var div =document.querySelector('div');<br>
+                        // 绑定点击事件<br>
+                        div.onclick=function(){<br>
+                            // 书写点击的时候执行的代码 <br>
+                            console.log('你好');<br>
+                        }
+                         </li>
+                </ul>
+             </h4>
+             <h4>三.事件类型和对象
+                <ul>
+                    <li>1. 事件类型: 鼠标事件, 键盘事件  浏览器事件   触摸事件  表单事件</li>
+                    <li>2. 事件对象: 当事件触发时，一个描述该事件信息的对象数据类型</li>
+                </ul>
+             </h4>
+           </div>
+
+           <div class="yuanxing">
+            <a name="yuanxing"></a>
+            <h1>原型链</h1>
+            <h4>一.原型
+                <ul>
+                    <li>1.JS中每一个函数都有一个prototype属性，这个属性指向函数的原型对象，每一个由原型对象派生的子对象，都有相同的属性。子对象就叫构造函数，从实例原型中获取相同的属性。</li>
+                    <li>2.案例:<br> function Person(age) {<br> 
+                        this.age = age       <br> 
+                    }<br> 
+                    Person.prototype.name = 'kavin'<br> 
+                    var person1 = new Person()<br> 
+                    var person2 = new Person()<br> 
+                    console.log(person1.name) //kavin<br> 
+                    console.log(person2.name)  //kavin<br> 
+                    其中，函数的prototype指向了一个对象，而这个对象正是调用构造函数时创建的实例的原型，也就是person1和person2的原型。
+                    </li>
+                </ul>
+            </h4>
+            <h4> 二._Proto _
+                <ul>
+                    <li>1.它是每一个子对象（除null外）都会有的一个属性，指向该对象的原型</li>
+                    <li>2.function Person() {<br>
+                    }<br>
+                    var person = new Person();<br>
+                    console.log(person.__proto__ === Person.prototype); // true<br>
+                    此属性可以访问原型，但并不存在于Person.prototype中，来自于Object.prototype,类似getter/setter，即使用obj._proto_时，可以理解为返回Object.getPrototypeOf(obj)
+                    </li>
+                </ul>
+            </h4>
+              <h4>
+                三.构造函数constructor
+                <ul>
+                    <li>1.每个原型都有一个constructor属性，指向该关联的构造函数。</li>
+                    <li>2.function Person() {<br>
+                    }<br>
+                    console.log(Person===Person.prototype.constructor)  //true<br>
+                    </li>
+                </ul>
+              </h4>
+              <h4>四.实例与原型
+                <ul>
+                    <li>1.当读取实例的属性时，如果找不到，就会查找与对象关联的原型中的属性，如果还查不到，就去找原型的原型，一直找到最顶层为止。</li>
+                    <li>function Person() {<br>
+                    }<br>       
+                    Person.prototype.name = 'Kevin';<br>                    
+                    var person = new Person();<br>                   
+                    person.name = 'Daisy';<br>
+                    console.log(person.name) // Daisy<br>                  
+                    delete person.name;<br>
+                    console.log(person.name) // Kevin<br>
+                    在这个例子中，我们给实例对象 person 添加了 name 属性，当我们打印 person.name 的时候，结果自然为 Daisy。
+                    但是当我们删除了 person 的 name 属性时，读取 person.name，从 person 对象中找不到 name 属性就会从 person 的原型也就是 person.proto ，也就是 Person.prototype中查找，幸运的是我们找到了 name 属性，结果为 Kevin。
+                    </li>
+                </ul>
+              </h4>
+              <h4>五.原型链
+                <ul>
+                    <li>每个构造函数都有一个原型对象，原型对象都包含一个指向构造函数的指针，而实例都包含一个指向原型对象的内部指针。那么假如我们让原型对象等于另一个类型的实例，结果会怎样？显然，此时的原型对象将包含一个指向另一个原型的指针，相应地，另一个原型中也包含着一个指向另一个构造函数的指针。假如另一个原型又是另一个类型的实例，那么上述关系依然成立。如此层层递进，就构成了实例与原型的链条。这就是所谓的原型链的基本概念 </li>
+                        
+                </ul>
+              </h4>
+           </div>
+           <div class="kongzhi">
+            <a name="kongzhi"></a>
+            <h1>流程控制</h1>
+            <h4>一.流程控制三种方式
+                <ul>
+                    <li>1.流程控制 三种方式  顺序  分支if swith   循环 for....</li>
+                    <li>2.if分支案例:
+                        // 成绩案例  <br>
+                        // var score =prompt('输入成绩'); <br>
+                        // if(score >= 90){ <br>
+                        //     alert('A'); <br>
+                        // }else if(score >=80){ <br>
+                        //     alert('B') <br>
+                        // }else if(score>=70){ <br>
+                        //     alert('C') <br>
+                        // }else if(score>=60){ <br>
+                        //     alert('D') <br>
+                        // }else { <br>
+                        //     alert('E') <br>
+                        // }</li>
+                    <li>3.swith语法结构:  // switch 语法结构  
+                        // switch(表达式1){ <br>
+                        //     case value1: <br>
+                        //         执行语句1 <br>
+                        //         break; <br>
+                        //     .... <br>
+                
+                        //     default : <br>
+                        //       最后执行语句; <br>
+                        // }</li>
+                        <li>3.1案例:// 查询水果案例<br>
+                            var num = prompt('输入一个水果')<br>
+                            switch(num){<br>
+                                case '苹果':<br>
+                                    alert('这是苹果，一斤10元');<br>
+                                    break;<br>
+                                    case '香蕉': <br>
+                                    alert('这是香蕉，一斤五元')<br>
+                                    break;<br>
+                                    default:<br>
+                                        alert('没有该水果')<br>
+                            }</li>
+                    <li>4.三元表达式:条件表达式 ？表达式1 ：表达式2<br>
+                        若条件表达式为真则返回表达式1，反之则返回表达式2。</li>
+                    <li>4.1案例: var age =prompt ('输入年龄');<br>
+                        var result = age >18 ? '你是大人了' : '你还是孩子';<br>
+                        alert(result);</li>                
+                </ul>
+            </h4>
+            <h4>二.循环
+                <ul>
+                    <li>1.for循环案例：<br>
+                        // 班级学生平均分成绩案例<br>
+                    //     var num = prompt('输入班级总人数');<br>
+                    //     var avarger =0;<br>
+                    //     var sum =0<br>
+                    //     for(var i=1; i<=num; i++){<br>
+                    //         var score=  prompt('输入第个'+ i +'学生成绩');<br>
+                    //           sum +=  parseFloat(score);<br>
+                              
+                    //     }<br>
+                    //    avarger = sum /num;<br>
+                    //    alert('班级总分是'+sum);<br>
+                    //    alert('班级平均分是'+avarger);</li>
+                    <li>2.打印星星案例:  // 打印n行n列星星<br>
+                        // var str ='';<br>
+                        // var num =prompt('请输入几行几列星星 ');<br>
+                        // for(var i =1; i<=num; i++){<br>
+                        //     for(var j =1; j<=num; j++){<br>
+                        //         str += '⭐';<br>
+                        //     }<br>
+                        //     str +='\n'<br>
+                        // }<br>
+                        // console.log(str);</li>    <br>
+                    <li>3.while循环案例：  var message =prompt('你好啊'); <br>
+                        while(message !=='你好'){ <br>
+                            message =prompt('你好啊'); <br>
+                        } <br>
+                        alert('不客气');</li>    
+                    <li>do while 循环案例 var num = prompt('你好啊');<br>
+                        do{<br>
+                            num =prompt('你好啊');<br>
+                                
+                        }while(num !=='你好')<br>
+                        alert('不客气');</li>    
+                </ul>
+            </h4>
+            <h4>三.循环小结
+                <ul>
+                    <li>// 如果用来计数  三者基本相同 可以交替使用, 但是更多用for<br>
+                        // while 和 do while 可以做更多复杂的判断   比for 更灵活一些<br>
+                        // do while跟while不同的地方在于 do while 先执行一次循环体 在判断条件<br>
+                        // do while 至少执行一次循环体   while 可能一次也不执行 <br>
+                
+                        // 实际工作中 我们更常用for循环语句  写法直观简洁</li>
+                </ul>
+            </h4>
+           </div>
+           <div class="shuzu">
+            <a name ="shuzu"></a>
+            <h4>一.数组的遍历
+                <ul>
+                    <li>遍历：var a = [1,2,3]; <br>
+                        for(var i =0 ; i<a.length; i++) { <br>
+                            console.log(a[i]); <br>
+                        }
+                         </li>
+                </ul>
+            </h4>
+            <h4>二.数组的和 最大值，平均值
+                <ul>
+                    <li>1.求和以及平均值：var arr = [1,2,3,4,9];<br>
+                        var sum =0;<br>
+                        var avarger =0;<br>
+                        for (var i =0;  i<arr.length; i++){<br>
+                            sum  += arr[i];<br>
+                        }<br>
+                        avarger = sum/ arr.length;<br>
+                        console.log(sum, avarger);</li>
+                    <li>2.最大值：      var arr =[5,4,3,5];<br>
+                        var sum =0;<br>
+                        var avarger =0;<br>
+                        for (var i =0; i<arr.length; i++) {<br>
+                            sum += arr[i];<br>
+                        }<br>
+                        avarger = sum /arr.length;<br>
+                        console.log(sum,avarger);<br>
+                </li>
+                </ul>
+            </h4>
+            <h4>三.翻转和冒泡 
+                <ul>
+                    <li>1.翻转：  var arr= [9,8,7]<br>
+                        var newArr =[];<br>
+                        for(var i =arr.length-1; i>=0; i--){<br>
+                            newArr[newArr.length] =arr[i];<br>
+                        }<br>
+                        console.log(newArr);</li><br>
+                    <li>2.冒泡:   var arr = [2,4,7,6];<br>
+                        for(var i=0; i<arr.length-1; i++){ <br>
+                            for(var j =0; j<arr.length-i-1; j++){ <br>
+                                if(arr[j]> arr[j+1]){<br>
+                                    var temp =arr[j];<br>
+                                    arr[j]=arr[j+1];<br>
+                                    arr[j+1]=temp;<br>
+                                }<br>
+                            }<br>
+                        }<br>
+                        console.log(arr);</li>
+                </ul>
+            </h4>
+            <h4>
+                四.去重和筛选
+                <ul>
+                    <li>1.去重: // 数组中0去掉以后 形成一个不包含0的新数组<br>
+                        // 遍历原来的数组  把不是0的数据添加到新数组里面去 (此时要注意采用数组名+索引的格式接受数据).<br>
+                        // 新数组里面的数 用length不断累加<br>              
+                        var  arr =[1,5,20,0,4,0];<br>
+                        var newArr=[];<br>            
+                        for(var i =0; i<arr.length; i++ ){<br>
+                            if(arr[i] !=0){<br>
+                                newArr[newArr.length] = arr[i];<br>
+                            }<br>
+                        }<br>
+                        console.log(newArr);</li>
+                    <li>2.筛选:  //  将数组中大于等于 10的筛选出来 放在新数组<br>
+                        //   声明一个新数组 newArr<br>
+                        //   遍历旧数组  找出大于10的元素<br>
+                        //   以此追加给新数组<br>
+                
+                        // var arr = [44,85,2,3,41,5,4];<br>
+                        // var newArr =[];<br>
+                        // var j=0;<br>
+                        // for(var i =0; i<arr.length; i++){<br>
+                        //     if(arr[i] >= 10){<br>
+                        //         newArr[j] = arr[i];<br>
+                        //         j++;<br>
+                        //     }<br>
+                        // }<br>
+                        // console.log(newArr);</li>
+                </ul>
+            </h4>
+           </div>
+           <div class="zuoyong">
+            <a name='zuoyong'></a>
+            <h1>作用域</h1>
+            <h4>一.概念
+                <ul>
+                    <li>1.  作用域  就是代码(变量)在某个范围内起作用和效果 目的是为了提高程序的可靠性更重要的是减少命名冲突<br>
+                            js的作用域(es6之前):全局作用域 和 局部作用域<br>
+                            全局作用域:整个script标签  或者是一个单独的js文件</li>
+                    <li>2. var num =10;  // 全局作用域<br>
+                        var num =55;<br>
+                        console.log(num);</li>
+                    <li>3.//  局部作用域(函数作用域):在函数内部就是局部作用域,这个代码的名字只在函数内部其作用和效果<br>
+                        function f(){<br>
+                            //局部作用域<br>
+                            console.log(21);<br>
+                        }<br>
+                        f();</li>
+                    <li>4.  // 全局变量  <br>
+                        // 在全局作用域下声明的变量叫做全局变量（在函数外部定义的变量)<br>                  
+                        // 全局变量在代码的任何位置都可以使用<br>
+                        // 特殊情况下，在函数内不使用var声明直接赋值的变量也是全局变量（不建议使用）</li> 
+                    <li>5.  // 局部变量 <br>
+                        // 在局部作用域下声明的变量叫做局部变量  在函数内部定义的变量 <br>
+                
+                        // 局部变量只能在函数内部使用 <br>
+                        // 函数的形参实际上就是局部变量</li>   
+                    <li>6.区别: // 全局变量:在任何一个地方都可以使用只有在浏览器关闭时才会被销毁因此比较占内存资源<br>
+                        // 局部变量:只在函数内部使用当其所在的代码块被执行时会被初始化 当代码块运行结束后就会被销毁因此更节省内存空间</li>
+                </ul>
+            </h4>
+            <h4>二.作用域链
+            <ul>
+                <li>1.  // 作用域链<br>
+
+                    // var num =10;<br>
+                    // function f(){  //外部函数<br>
+                    //     var num=20;     //根据在内部函数可以访问外部函数的这种机制，用链式查找决定哪些数据能被内部访问，就称为作用域链，即就近原则<br>
+                    //     function f1(){  //内部函数<br>
+                    //         console.log(num);<br>
+                    //     }<br>
+                    // }<br>
+                    // f();</li>
+                <li>2.案例:    // 案例   结果是？ 10<br>
+                    function f(){<br>
+                         var num =10;<br>
+            
+                         function f2(){<br>
+                            console.log(num);     // 站在目标一次一层往外面找 10<br>
+                        }<br>
+                        f2();<br>
+                    }<br>
+                    var num =456;<br>
+                    f1();</li>    
+            </ul>
+        </h4>
+           </div>
+           <div class="hanshu">
+            <a name="hanshu"></a>
+            <h1>函数</h1>
+            <h4>一.函数求和
+                <ul>
+                    <li>1.   // 求任意两数之间的和 <br>
+                        function getSum(num1,num2){<br>
+                            var sum =0;<br>
+                            for(var i=num1;  i<=num2; i++){<br>
+                                sum +=i;<br>
+                            }<br>
+                            console.log(sum);<br>
+                              
+                        }<br>
+                        getSum(1,10);</li>
+                </ul>
+            </h4>
+            <h4>二.形参实参
+                <ul>
+                    <li>1.function getSum(num1, num2) {<br>
+                        console.log(num1 + num2);      <br>      
+                    }<br>
+                    getSum(100, 200); //形参和实参个数相等，输出正确结果<br>
+                    getSum(100, 200, 300); // 实参个数多于形参，只取到形参的个数<br>
+                    getSum(200); //实参个数少于形参，多的形参定义为undefined，结果为NaN
+            </li>
+                </ul>
+            </h4>
+            <h4>三.返回值
+                <ul>
+                    <li>1.//  return 只返回一个值 返回最后一个值
+                        function fn(num1,num2){<br>
+                            return num1,num2;<br>
+                        }<br>
+                        console.log(fn(1,2));</li>
+                    <li>2.区别: // break：结束当前的循环体(如for、while)<br>
+                        // continue：跳出本次循环，继续执行下次循环(如for、while)<br>
+                        // return：不仅可以退出循环，还能够返回return语句中的值，同时还可以结束当前的函数体内的代码</li>    
+                </ul>
+            </h4>
+            <h4>四.案例
+                <ul>
+                    <li>  // 判断闰年;<br>
+                        function getYear(year){<br>
+                            var r ='平年'<br>
+                            if(year % 4 ==0  && year%100!=0 || year %400 ==0){<br>
+                                alert('闰年')<br>
+                            }else{<br>
+                                return alert(r)<br>
+                            }<br>
+                          
+                        }<br>
+                        var year = parseInt(prompt('输入年份'))<br>
+                        var result =getYear(year)<br>
+                        console.log(year);</li>
+                </ul>
+            </h4>
+            <h4>五.函数的相互调用
+                <ul>
+                    <li>例子： // function f(){<br>
+                        //     console.log(11);<br>
+                        //     f2();<br>
+                        //     console.log('f1');<br>
+                        // }<br>
+                        //          //按照顺序执行  11  f2  'f1'<br>
+                        // function f2(){<br>
+                        //     console.log(22);<br>
+                        //     console.log('f2');<br>
+                        // }<br>
+                        // f();    </li>
+                    <li>2.案例：// 判断2月份天数<br>
+                        function backDay(){<br>
+                           var year =prompt('输入年份');<br>
+                           if((isYear(year))){ //调用函数需要加上小括号<br>
+                               alert('有29天');<br>
+                
+                           } else {<br>
+                               alert('有28天');<br>
+                           }<br>
+                
+                        }<br>
+                        backDay();<br>
+                
+                        function isYear(year){<br>
+                            var flag =false;<br>
+                            if(year % 4 ==0  && year%100!=0 || year %400 ==0){<br>
+                                flag =true;<br>
+                            }<br>
+                            return flag<br>
+                        }<br>
+                        console.log(isYear(year));</li>
+                </ul>
+            </h4>
+            <h4>六.两种声明方式
+                <ul>
+                    <li>
+                        // 1 命名函数<br>
+                        // function f1(){<br>
+                
+                        // }<br>
+                        // f1()      <br>  
+                        
+                        //2 匿名函数<br>
+                        //  var 变量名 =function(){}    fun是变量名不是函数名<br>
+                        var fun =function (num){<br>
+                            console.log(11);<br>
+                            console.log(num);<br>
+                        }<br>
+                        fun(21)
+                    </li>
+                </ul>
+            </h4>
+           </div>
+           <div class="db">
+            <a name="db"></a>
+            <h1>DOM和BOM</h1>
+            <h4>一.DOM获取元素的方式
+                <ul>
+                    <li>1.根据id名  称获取<br>
+                          //根据元素 类名称  获取<br>
+                         //根据元素 标签名  获取<br>
+                         //根据选择器获取一个<br>
+                         //根据选择器获取一组</li>
+                    <li>2. // 根据id名获取 <br>
+                        // 语法  document.getElementById('id名称')<br>
+                        // 作用 获取文档流中  id名对应的一个元素<br>
+                        // 返回值 ：  如果id有这个元素 就返回这个元素 没有就是null<br>
+                        var ele =document.getElementById('con');<br>
+                        console.log(ele);</li> 
+                    <li>3. //  根据元素 类名称  获取  ments 多个s<br>
+                        //  语法 document.getElementsByclassName('元素类名')<br>
+                        // 作用  获取文档流中 所有  类名对应的元素<br>
+                        // 返回值： 必然是一个伪数组   如果有对应的类名  则有多少获取多少   没有则是空的伪数组<br>
+                        var a =document.getElementsByClassName('box');
+                        console.log(a);</li>    
+                    <li>4.//    根据元素 标签名  获取  ments <br>
+                        // 语法  document.getElementsByTagName('标签名')<br>
+                        // 作用：获取文档流中所有标签名对应的元素 <br>
+                        // 返回值： 必然是一个伪数组   如果有对应的类名  则有多少获取多少   没有则是空的伪数组<br>
+                        var b=document.getElementsByTagName('div')<br>
+                        console.log(b);</li>  
+                    <li>5.   // .根据选择器获取一个<br>
+                        // 语法：doucument.querySelector('选择器')   css的元素方式<br>
+                        // 作用：获取文档流中满足选择器的第一个元素   <br>
+                        // 返回值  如果有对应的元素 则获取第一个  否则返回null<br>
+                        var c =document.querySelector('div')<br>
+                        console.log(c);
+                </li>      
+                    <li>
+                        6. // .根据选择器获取一组<br>
+                        //   语法:document.querySelectorAll('选择器')<br>
+                        // 作用：获取文档流中  所有满足选择器规则的元素<br>
+                        // 返回值：必然是一个伪数组   有多少获取多少  没有就是空数组<br>
+                        
+                        // 根据选择器获取页面元素<br>
+                        var d=document.querySelectorAll('div')<br>
+                        console.log(d);
+                    </li>
+                </ul>
+            </h4>
+            <h4>二.操作元素内容
+                <ul>
+                    <li>// 操作元素  超文本内容<br>
+                        // 获取  .innerHTML<br>
+                        // 设置  .innerHTML='新内容'<br>
+                    
+                        var a =document.querySelector('div');<br>
+                        var b=document.querySelector('button');<br>
+                    
+                        console.log(a.innerHTML);<br>
+                        a.onclick=function(){<br>
+                            a.innerHTML='<span>好的</span>';<br>
+                        }</li>
+                </ul>
+            </h4>
+            <h4>
+                三.操作元素属性
+                <ul>
+                    <li>
+                        // 自定义属性<br>
+                        // 获取： 元素.getAtrribute('属性名')<br>
+                        // 设置: 元素.setAtrribute('属性名','新的名字')<br>
+                        // 删除：元素.removeAtrribute('属性名')<br>
+                
+                        // 获取元素<br>
+                        // var btn =document.querySelector('button')<br>
+                        // var box =document.querySelector('div')<br>
+                
+                        // // 获取元素属性<br>
+                        // // var res =box.getAttribute('hello');<br>
+                        // // console.log(res);<br>
+                
+                        // // 给按钮添加点击事件<br>
+                        // btn.onclick=function(){<br>
+                        //     // 修改自定义元素属性<br>
+                        //     box.removeAttribute('hello','新来的'); <br>
+                        // }
+                
+                    </li>
+                </ul>
+            </h4>
+            <h4>
+                四.操作类名和样式
+                <ul>
+                    <li>1.// 操作元素类名<br>
+                        // 获取:  元素.className<br>
+                        // 设置:  元素.className ='新类名' <br>
+                        
+                        // 获取元素<br>
+                        // var a=document.querySelector('button');<br>
+                        // var b=document.querySelector('div');<br>
+                
+                        // // 获取类名<br>
+                        // console.log(b.className);  <br>
+                
+                        // // 设置点击事件<br>
+                        // a.onclick=function(){<br>
+                        //     b.className='box';<br>
+                        // }
+                
+                        // var b=document.querySelector('button');<br>
+                        // var a=document.querySelector('div');<br>
+                
+                        // b.onclick=function(){<br>
+                        //     a.className='box'<br>
+                        // }</li>
+                    <li>2. // 操作  行内样式<br>
+                        // 语法 : <br>
+                        // 获取： 元素.style.样式名<br>
+                        // 设置： 元素.style.样式名='样式值'<br>
+                        // 注意:  只能获取和设置元素的行内样式  <br>
+                        // var a =document.querySelector('div');<br>
+                        // var b=document.querySelector('button');<br>
+                
+                        // b.onclick=function(){<br>
+                        //    a.style.width='300px'<br>
+                        //    a.style.height='400px'<br>
+                        //    a.style.backgroundColor='blue'<br>
+                        // }
+                
+                        // var a =document.querySelector('div');<br>
+                        // var b=document.querySelector('button');<br>
+                
+                        // b.onclick=function(){<br>
+                        //     a.style.width='300px'<br>
+                        //     a.style.height='600px'<br>
+                        //     a.style.backgroundColor='red'<br>
+                        // }</li>
+                        <li>3.// 操作元素的非行内样式<br>
+                            // 获取 ：window.getComputStyle(元素).样式名<br>
+                            // 注意 : 可以获取行内样式，也可以获取非行内样式<br>
+                            var a=document.querySelector('div');<br>
+                            var b=document.querySelector('button')</li>
+                </ul>
+            </h4>
+            <h4>五.节点
+                <ul>
+                    <li>
+                        1.// 创建节点 <br>
+                        // 语法 :document.createElement('标签名称')<br>
+                        // 作用：创建一个 指定标签元素<br>
+                        // 返回值：一个创建好的元素节点<br>
+                
+                        // 创建一个div标签<br>
+                        // var div=document.createElement('div')<br>
+                        // console.log(div);
+                
+                    </li>
+                    <li>
+                        2. // 插入节点<br>
+                        // 语法1：父节点.appendChild('子节点')<br>
+                        // 把子节点放在父节点内部 并且放在最后位置<br>
+                
+                        // 创建一个span标签<br>
+                        // var span =document.createElement('span');<br>
+                        // // 往span标签添加一些内容<br>
+                        // span.innerText='我是创建出来的span';<br>
+                        // console.log(span);<br>
+                
+                        // // 获取页面上的div元素 <br>
+                        // var div =document.querySelector('div');<br>
+                        // // 把创建的 span标签插入到div内部<br>
+                        // div.appendChild(span)<br>
+                        
+                
+                        // 语法2 父节点.insertBefore(要插入的子节点,哪一个子节点的前面)<br>
+                        // 作用：把子节点放在父节点的内部，并且指定放在某一个子节点前面<br>
+                        // 创建一个span标签<br>
+                        // var span =document.createElement('span')<br>
+                        // // 向span里面添加内容<br>
+                        // span.innerText='这是添加的';<br>
+                        // console.log(span);<br>
+                        //  // // 获取页面上的div元素 <br>
+                        // var div =document.querySelector('div');<br>
+                        // // 获取div内部本身的p标签<br>
+                        // var p =document.querySelector('p');<br>
+                        // // 把创建的span标签插入到div内部  并放在p标签前面<br>
+                        // div.insertBefore(span,p)<br>
+                
+                    </li>
+                    <li>3.// 删除节点<br>
+                        // 语法1：父节点.removeChild(子节点);<br>
+                        // 作用：从父节点内删除某一个子节点;<br>
+                
+                        // 获取div元素<br>
+                        // var div =document.querySelector('div')<br>
+                
+                        // // 获取p元素<br>
+                        // var div =document.querySelector('p')<br>
+                
+                        // // 从div内部删除元素p元素<br>
+                        // div.removeChild(p);<br>
+                
+                        // 语法2 ： 节点.remove();<br>
+                        // 作用：把自己 直接删除<br>
+                
+                        // 获取到div元素<br>
+                        // var div =document.querySelector('div');<br>
+                
+                        // // 把div删除<br>
+                        // div.remove();</li>
+                    <li>4. // 替换节点<br>
+                        // 语法 ： 父节点.replaceChild(换上节点,换下节点)<br>
+                        // 作用：  在父节点内，使用 换上节点 替换掉 换下节点<br>
+                
+                
+                        // 创建一个i节点<br>
+                        // var i =document.createElement('i');<br>
+                        // // 向i标签内添加一些文本<br>
+                        // i.innerText = '我是创建出来的i标签';<br>
+                        // // 获取到div元素<br>
+                        // var div =document.querySelector('div');<br>
+                        // // 获取span元素<br>
+                        // var span =document.querySelector('span');<br>
+                
+                        // // 使用创建的i标签 替换div本身的span标签<br>
+                        // div.replaceChild(i,span)</li>
+                    <li>5. // 克隆节点<br>
+                        // 语法: 节点.clnoeNode('是否克隆后代节点')<br>
+                        // 作用 ： 就是把该节点赋值一份一模一样的内容<br>
+                        // 返回值：就是克隆好的新节点<br>
+                
+                        // 获取div元素<br>
+                        // var div =document.querySelector('div');<br>
+                
+                        // // 克隆一个div元素 不克隆后代元素<br>
+                        // var clone1=div.cloneNode(false);<br>
+                        // // 克隆一个div元素 克隆后代元素<br>
+                        // var clone2=div.cloneNode(true);<br>
+                
+                        // console.log('不克隆后代',clone1);<br>
+                        // console.log('克隆后代',clone2);<br>
+                </li>
+                <li>
+                    6. // 获取元素尺寸<br>
+                    // 语法：元素.offsetHeight<br>
+                    // 语法:元素.offsetwidth<br>
+                    // 获取 元素：内容 + padding+border 区域的尺寸 <br>
+            
+                    // 语法:<br>
+                    //  元素.clientHeight<br>
+                    //  元素.clientWidth<br>
+                    // 获取 ： 元素内容+pading区域的尺寸<br>
+                </li>    
+                </ul>
+            </h4>
+            <h4>一.BOM 
+                <ul>
+                    <li>1.//获取浏览器窗口尺寸<br>
+
+                        var w = innerWidth;<br>
+                        var h = innerHeight;<br>
+                      
+                
+                        console.log(w);<br>
+                        console.log(h);</li>
+                    <li>2.弹出层：// 提示框<br>
+                        // var a= window.alert('橙色是')<br>
+                
+                        // 询问框<br>
+                        // var v = window.confirm('你好');<br>
+                        // console.log(v);<br>
+                
+                        // 输入框<br>
+                        var s =window.prompt('密码');<br>
+                        console.log(s);</li>
+                    <li>3.浏览器常用事件:      // 资源加载完毕  ：  window.onload =function(){}<br>
+                        // 可视尺寸改变     window.onresize =function(){}<br>
+                        // 滚动条位置       window.onscroll=function(){}<br>
+                        
+                
+                        window.onload=function(){<br>
+                            console.log('资源加载完毕');<br>
+                        }
+                        window.onresize=function(){<br>
+                            console.log('尺寸变化');<br>
+                        }
+                        window.onscroll=function(){<br>
+                            console.log('滚动条变化了');<br>
+                        }</li>   
+                    <li>4.历史记录: // 回退页面  window.history.back();<br>
+                        // 前进页面  window.histroy.forward();<br>
+                
+                        window.history.back();<br>
+                        window.history.forward();</li> 
+                    <li>5.卷去尺寸：   // 卷去的高度<br>
+                        //    document.documentElement.scrollTop;<br>
+                        //    dounment.body.scrollTop;<br>
+                        // document.documentElement.scrollTop;  有 <!DOCTYPE html>    用<br>
+                        // document.body.scrollTop;    没有用这个<br>
+                        window.onscroll=function(){<br>
+                            var height= document.documentElement.scrollTop || document.body.scrollTop;<br>
+                            console.log(height);<br>
+                        }<br>
+                
+                
+                        // 卷去的宽度<br>
+                        // document.documentElement.scrollLeft;<br>
+                        // document.body.scrollLeft;<br>
+                        
+                        // window.onscroll=function(){<br>
+                        //   var width= document.documentElement.scrollLeft || document.body.scrollLeft;<br>
+                        //   console.log(width);<br>
+                        // }</li>   
+                    <li>6.定时器:// 间隔定时器   按照固定周期(毫秒)去执行指定的代码<br>
+                        //  语法:setInterval(函数,时间)<br>
+                        // 函数：每次执行的内容    时间：单位是毫秒<br>
+                        // setInterval(function(){<br>
+                        //     console.log('执行');<br>
+                        // },1000)<br>
+                        // setInterval(function(){<br>
+                        //     console.log('测试');<br>
+                        // },1000)<br>
+                
+                
+                
+                        // 延时定时器  在固定时间(毫秒)后指定执行一次代码<br>
+                        // 语法seTimeout(函数,时间)<br>
+                        // 函数:到达时间执行的内容<br>
+                        // 单位是毫秒<br>
+                
+                        // setTimeout(function(){<br>
+                        //     console.log('执行一次');<br>
+                        // },1000)<br>
+                
+                
+                        // 定时器的返回值     代表该定时器是第几个定时器<br>
+                        // 语法一  clearInterval (要关闭的定时器返回值)<br>
+                        // 语法二  clearTimeout (要关闭的定时器返回值)<br>
+                        
+                        var t =setInterval(function(){<br>
+                            console.log('执行');              //第一个定时器<br>
+                        },1000)
+                
+                        var t1 =setTimeout(function(){<br>
+                            console.log('再来');            //第二个定时器<br>
+                        },3000)<br>
+                
+                        // 绑定点击事件<br>
+                        // on.onclick=function(){<br>
+                        //     clearInterval(t);<br>
+                        //     clearInterval(t1);<br>
+                        // }<br>
+                
+                        on.onclick=function(){<br>
+                            clearTimeout(t);<br>
+                            clearTimeout(t1);<br>
+                        }</li>         
+                </ul>
+            </h4>
+           </div>
+           <div class="jicheng">
+            <a name="jicheng"></a>
+            <h1>继承</h1>
+            <h4>一.实现方式
+                <ul>
+                    <li>1.// 定义一个动物类<br>
+                        function Animal (name) {<br>
+                          // 属性<br>
+                          this.name = name || 'Animal';<br>
+                          // 实例方法<br>
+                          this.sleep = function(){<br>
+                            console.log(this.name + '正在睡觉！');<br>
+                          }<br>
+                        }<br>
+                        // 原型方法<br>
+                        Animal.prototype.eat = function(food) {<br>
+                          console.log(this.name + '正在吃：' + food);<br>
+                        };<br>
+                        </li>                 
+                </ul>
+            </h4>
+            <h4>二.原型链继承
+                <ul>
+                    <li>
+                        1.将父类的实例作为子类的原型<br>
+                        function Cat(){ <br>
+                        }<br>
+                        Cat.prototype = new Animal();<br>
+                        Cat.prototype.name = 'cat';<br>
+                        
+                        //　Test Code<br>
+                        var cat = new Cat();<br>
+                        console.log(cat.name);<br>
+                        console.log(cat.eat('fish'));<br>
+                        console.log(cat.sleep());<br>
+                        console.log(cat instanceof Animal); //true <br>
+                        console.log(cat instanceof Cat); //true<br>
+                        
+                    </li>
+                    <li>2.优缺点特点：<br>
+                        非常纯粹的继承关系，实例是子类的实例，也是父类的实例<br>
+                        父类新增原型方法/原型属性，子类都能访问到<br>
+                        简单，易于实现 <br>                  
+                    缺点：                   
+                        要想为子类新增属性和方法，必须要在new Animal()这样的语句之后执行，不能放到构造器中<br>
+                        无法实现多继承<br>
+                        来自原型对象的所有属性被所有实例共享（来自原型对象的引用属性是所有实例共享的）（详细请看附录代码： 示例1）<br>
+                        创建子类实例时，无法向父类构造函数传参<br>
+                    </li>
+                </ul>
+            </h4>
+            <h4>
+                三.构造继承
+                <ul>
+                    <li>
+                        1.function Cat(name){<br>
+                            Animal.call(this);<br>
+                            this.name = name || 'Tom';<br>
+                          }<br>
+                          
+                          // Test Code<br>
+                          var cat = new Cat();<br>
+                          console.log(cat.name);<br>
+                          console.log(cat.sleep());<br>
+                          console.log(cat instanceof Animal); // false<br>
+                          console.log(cat instanceof Cat); // true<br>
+                          
+                    </li>
+                    <li>2.特点：<br>
+
+                        解决了1中，子类实例共享父类引用属性的问题<br>
+                        创建子类实例时，可以向父类传递参数<br>
+                        可以实现多继承（call多个父类对象）<br>
+                    
+                    缺点：<br>
+                    
+                        实例并不是父类的实例，只是子类的实例<br>
+                        只能继承父类的实例属性和方法，不能继承原型属性/方法<br>
+                        无法实现函数复用，每个子类都有父类实例函数的副本，影响性能<br>
+                    </li>
+                </ul>
+            </h4>
+             <h4>四.实例继承 
+                <ul>
+                    <li>1.为父类实例添加新特性，作为子类实例返回<br>
+                        function Cat(name){<br>
+                            var instance = new Animal();<br>
+                            instance.name = name || 'Tom';<br>
+                            return instance;<br>
+                          }<br>
+                          
+                          // Test Code<br>
+                          var cat = new Cat();<br>
+                          console.log(cat.name);<br>
+                          console.log(cat.sleep());<br>
+                          console.log(cat instanceof Animal); // true<br>
+                          console.log(cat instanceof Cat); // false<br>
+                        </li>
+                        <li>2.特点：<br>
+
+                            不限制调用方式，不管是new 子类()还是子类(),返回的对象具有相同的效果<br>
+                        
+                        缺点：<br>
+                        
+                            实例是父类的实例，不是子类的实例<br>
+                            不支持多继承<br>
+                        </li>
+                </ul>
+             </h4>
+           </div>
+       </div>	
+    </div>
+    <!-- 底部 -->
+    <div class="xia">
+       <div class="call">
+        <h4>联系我们</h4>
+        <a href="https://space.bilibili.com/44679790?spm_id_from=333.1007.0.0">b站主页</a>
+       </div>
+    </div>
+	
+   <div class="back">回到顶部
+	   
+   </div>
+   <button onclick="myFunction()">作者电话</button>
+<script>
+	
+      var back = document.querySelector('.back')
+      console.log(back);
+
+      window.onscroll = function () {
+          var hight = document.documentElement.scrollTop
+          if (hight >= 1) {
+              back.style.display = 'block';
+          } else {
+              back.style.display = 'none';
+          }
+      }
+      back.onclick = function () {
+          window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+          })
+      }
+
+      function myFunction() {
+	   setTimeout(function(){alert("手机号:136201510")},3000);
+      }
+      
+  </script>
+
+
+</html>
